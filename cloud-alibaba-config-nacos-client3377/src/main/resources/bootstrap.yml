@@ -7,8 +7,11 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: http://106.15.238.69:8848/  #配置Nacos地址
+        server-addr: http://106.15.238.69:8848/  # 配置Nacos地址
+        namespace: 35335414-acff-4506-828c-2b29654f0487 # 服务命名空间
+        group: TEST_GROUP  # 服务分组
       config:
-        server-addr: http://106.15.238.69:8848 #配置中心地址
-        file-extension: yaml #指定yaml格式的配置
-        group: TEST_GROUP
+        server-addr: http://106.15.238.69:8848 # 配置中心地址
+        file-extension: yaml # 指定yaml格式的配置
+        group: TEST_GROUP  # config分组
+        namespace: 35335414-acff-4506-828c-2b29654f0487 # config命名空间
