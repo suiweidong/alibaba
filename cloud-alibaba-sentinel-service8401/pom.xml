@@ -33,12 +33,6 @@
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
 
-        <!--openfeign-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-
         <!--SpringBoot 整合Web组件 + actuator-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
