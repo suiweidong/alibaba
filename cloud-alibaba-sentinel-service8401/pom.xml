@@ -7,19 +7,36 @@
         <artifactId>alibaba</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>cloud-alibaba-consumer-order80</artifactId>
+    <artifactId>cloud-alibaba-sentinel-service8401</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.alibaba.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
 
-        <!--nacos-->
+        <!--alibaba 三剑客，以后用到springcloud alibaba必依赖这三个jar包-->
+        <!--spring-cloud-alibaba-nacos-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <!--SpringCloud alibaba sentinel-datasource-nacos 后续做持久化用到-->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
+        </dependency>
+        <!--spring-cloud-alibaba-sentinel-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
+
+        <!--openfeign-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
         <!--SpringBoot 整合Web组件 + actuator-->
@@ -38,4 +55,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 </project>
