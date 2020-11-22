@@ -1,0 +1,63 @@
+Manifest-Version: 1.0
+Main-Class: com.alibaba.springcloud.AlibabaSentinelService8401Applicatio
+ n
+Class-Path: httpcore-4.4.12.jar snakeyaml-1.25.jar hibernate-validator-6
+ .0.18.Final.jar spring-boot-actuator-2.2.2.RELEASE.jar sentinel-transpo
+ rt-simple-http-1.8.0.jar httpclient-4.5.10.jar feign-form-spring-3.8.0.
+ jar rxnetty-servo-0.4.9.jar spring-boot-starter-json-2.2.2.RELEASE.jar 
+ spring-cloud-starter-alibaba-sentinel-2.2.3.RELEASE.jar spring-boot-sta
+ rter-logging-2.2.2.RELEASE.jar aspectjweaver-1.9.5.jar classmate-1.5.1.
+ jar archaius-core-0.7.6.jar spring-cloud-circuitbreaker-sentinel-2.2.3.
+ RELEASE.jar spring-webmvc-5.2.2.RELEASE.jar micrometer-core-1.3.1.jar f
+ astjson-1.2.71.jar jackson-databind-2.10.1.jar sentinel-core-1.8.0.jar 
+ spring-cloud-starter-2.2.1.RELEASE.jar feign-hystrix-10.4.0.jar commons
+ -configuration-1.8.jar sentinel-datasource-nacos-1.8.0.jar hutool-all-5
+ .1.0.jar spring-boot-autoconfigure-2.2.2.RELEASE.jar simpleclient-0.5.0
+ .jar sentinel-parameter-flow-control-1.8.0.jar checker-compat-qual-2.0.
+ 0.jar httpcore-nio-4.4.12.jar spring-beans-5.2.2.RELEASE.jar netty-comm
+ on-4.1.43.Final.jar jackson-module-parameter-names-2.10.1.jar spring-cl
+ oud-starter-netflix-archaius-2.2.1.RELEASE.jar feign-core-10.4.0.jar ja
+ karta.annotation-api-1.3.5.jar j2objc-annotations-1.1.jar spring-core-5
+ .2.2.RELEASE.jar bcprov-jdk15on-1.64.jar ribbon-loadbalancer-2.3.0.jar 
+ commons-fileupload-1.4.jar feign-slf4j-10.4.0.jar spring-cloud-commons-
+ 2.2.1.RELEASE.jar ribbon-core-2.3.0.jar commons-lang-2.6.jar nacos-api-
+ 1.3.3.jar jersey-core-1.19.1.jar nacos-client-1.3.3.jar sentinel-annota
+ tion-aspectj-1.8.0.jar sentinel-cluster-common-default-1.8.0.jar log4j-
+ api-2.12.1.jar nacos-common-1.3.3.jar jackson-datatype-jsr310-2.10.1.ja
+ r ribbon-transport-2.3.0.jar netty-codec-4.1.43.Final.jar log4j-to-slf4
+ j-2.12.1.jar spring-web-5.2.2.RELEASE.jar LatencyUtils-2.0.3.jar spring
+ -context-support-1.0.10.jar spring-context-5.2.2.RELEASE.jar spring-boo
+ t-starter-tomcat-2.2.2.RELEASE.jar jboss-logging-3.4.1.Final.jar spring
+ -aop-5.2.2.RELEASE.jar spring-jcl-5.2.2.RELEASE.jar sentinel-reactor-ad
+ apter-1.8.0.jar concurrentlinkedhashmap-lru-1.4.2.jar spring-boot-start
+ er-validation-2.2.2.RELEASE.jar jackson-annotations-2.10.1.jar spring-b
+ oot-starter-actuator-2.2.2.RELEASE.jar spring-boot-actuator-autoconfigu
+ re-2.2.2.RELEASE.jar rxnetty-contexts-0.4.9.jar jackson-datatype-jdk8-2
+ .10.1.jar fastJson-1.2.7.jar netty-resolver-4.1.43.Final.jar sentinel-c
+ luster-server-default-1.8.0.jar ribbon-2.3.0.jar jackson-core-2.10.1.ja
+ r spring-cloud-starter-netflix-ribbon-2.2.1.RELEASE.jar hystrix-core-1.
+ 5.18.jar spring-security-rsa-1.0.9.RELEASE.jar servo-core-0.12.21.jar s
+ pring-cloud-alibaba-sentinel-datasource-2.2.3.RELEASE.jar spring-boot-s
+ tarter-2.2.2.RELEASE.jar animal-sniffer-annotations-1.14.jar spring-sec
+ urity-crypto-5.2.1.RELEASE.jar commons-lang3-3.9.jar tomcat-embed-webso
+ cket-9.0.29.jar spring-expression-5.2.2.RELEASE.jar spring-boot-2.2.2.R
+ ELEASE.jar jersey-apache-client4-1.19.1.jar netflix-commons-util-0.3.0.
+ jar slf4j-api-1.7.29.jar rxnetty-0.4.9.jar guava-24.1.1-jre.jar spring-
+ cloud-netflix-ribbon-2.2.1.RELEASE.jar spring-cloud-netflix-archaius-2.
+ 2.1.RELEASE.jar spring-boot-starter-aop-2.2.2.RELEASE.jar jakarta.valid
+ ation-api-2.0.1.jar rxjava-1.3.8.jar spring-cloud-openfeign-core-2.2.1.
+ RELEASE.jar commons-codec-1.13.jar sentinel-transport-common-1.8.0.jar 
+ jul-to-slf4j-1.7.29.jar tomcat-embed-core-9.0.29.jar javax.inject-1.jar
+  aspectjrt-1.9.5.jar tomcat-embed-el-9.0.29.jar jsr311-api-1.1.1.jar ne
+ tty-transport-4.1.43.Final.jar spring-cloud-context-2.2.1.RELEASE.jar j
+ ersey-client-1.19.1.jar netty-handler-4.1.43.Final.jar sentinel-cluster
+ -client-default-1.8.0.jar httpasyncclient-4.1.4.jar sentinel-spring-web
+ flux-adapter-1.8.0.jar spring-cloud-starter-alibaba-nacos-discovery-2.2
+ .3.RELEASE.jar spring-cloud-starter-openfeign-2.2.1.RELEASE.jar commons
+ -collections-3.2.2.jar netflix-statistics-0.1.1.jar netty-buffer-4.1.43
+ .Final.jar logback-core-1.2.3.jar ribbon-httpclient-2.3.0.jar spring-bo
+ ot-starter-web-2.2.2.RELEASE.jar sentinel-spring-webmvc-adapter-1.8.0.j
+ ar HdrHistogram-2.1.11.jar sentinel-datasource-extension-1.8.0.jar bcpk
+ ix-jdk15on-1.64.jar feign-form-3.8.0.jar jsr305-1.3.9.jar commons-io-2.
+ 2.jar logback-classic-1.2.3.jar error_prone_annotations-2.1.3.jar
+
