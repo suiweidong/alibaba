@@ -23,14 +23,6 @@ public class ConsumerOrder90Controller {
 
     @GetMapping("/cloud/nacos/rongduan/getOrder/{id}")
     public CommonResponse<Payment> getOrder(@PathVariable("id") Long id){
-        log.info("uri：" + uri);
-
-        CommonResponse<Payment> result = this.restTemplate.getForObject(uri + "/cloud/nacos/rongduan/getPayment/" + id, CommonResponse.class, id);
-
-        return result;
+        return this.restTemplate.getForObject(uri + "/cloud/nacos/rongduan/getPayment/" + id, CommonResponse.class, id);
     }
-
-
-
-
 }

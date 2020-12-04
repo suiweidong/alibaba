@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 
 @RestController
-public class NacosJiangji9003Controller {
+public class NacosRongduan9004Controller {
 
     @Value("${server.port}")
     private String ServerPort;
