@@ -7,27 +7,23 @@
         <artifactId>alibaba</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>cloud-alibaba-config-nacos-client3377</artifactId>
+    <artifactId>cloud-alibaba-nacos-rongduan-provider-payment9004</artifactId>
 
     <dependencies>
+        <!--cloud-api-commons-->
         <dependency>
             <groupId>com.alibaba.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
             <version>${project.version}</version>
         </dependency>
 
-        <!--nacos-config-->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-        </dependency>
-        <!--nacos -->
+        <!--SpringCloud ailibaba nacos -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
-        <!--web + actuator-->
+        <!-- SpringBoot整合Web组件 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -37,11 +33,11 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
+        <!--spring-boot-starter-test-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>

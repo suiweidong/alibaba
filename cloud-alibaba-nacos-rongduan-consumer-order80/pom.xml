@@ -7,7 +7,7 @@
         <artifactId>alibaba</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>cloud-alibaba-config-nacos-client3377</artifactId>
+    <artifactId>cloud-alibaba-nacos-rongduan-consumer-order80</artifactId>
 
     <dependencies>
         <dependency>
@@ -16,18 +16,24 @@
             <version>${project.version}</version>
         </dependency>
 
-        <!--nacos-config-->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-        </dependency>
-        <!--nacos -->
+        <!--alibaba 三剑客，以后用到springcloud alibaba必依赖这三个jar包-->
+        <!--spring-cloud-alibaba-nacos-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
+        <!--SpringCloud alibaba sentinel-datasource-nacos 后续做持久化用到-->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
+        </dependency>
+        <!--spring-cloud-alibaba-sentinel-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
 
-        <!--web + actuator-->
+        <!--SpringBoot 整合Web组件 + actuator-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

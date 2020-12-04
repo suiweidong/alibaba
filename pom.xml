@@ -10,10 +10,17 @@
     <modules>
         <module>cloud-utils</module>
         <module>cloud-api-commons</module>
+
+        <module>cloud-alibaba-consumer-order80</module>
         <module>cloud-alibaba-provider-payment9001</module>
         <module>cloud-alibaba-provider-payment9002</module>
-        <module>cloud-alibaba-consumer-order80</module>
+
+        <module>cloud-alibaba-nacos-rongduan-consumer-order80</module>
+        <module>cloud-alibaba-nacos-rongduan-provider-payment9003</module>
+        <module>cloud-alibaba-nacos-rongduan-provider-payment9004</module>
+
         <module>cloud-alibaba-config-nacos-client3377</module>
+
         <module>cloud-alibaba-sentinel-service8401</module>
     </modules>
 
