@@ -11,9 +11,11 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 
+/**
+ * 使用ribbon方式
+ */
 @RestController
-@Slf4j
-public class ConsumerOrder90Controller {
+public class ConsumerRibbonOrder90Controller {
 
     @Value("${service-url.nacos-user-service}")
     private String uri;
