@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: cloud-alibaba-nacos-jiangji-service
+    name: cloud-alibaba-nacos-rongduan-service
   cloud:
     nacos:
       discovery:

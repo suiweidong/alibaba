@@ -24,7 +24,7 @@ public class NacosJiangji9003Controller {
         hashMap.put(3L, new Payment(3L, "6ua8c1e3bc2742d8848569891xt92183"));
     }
 
-    @GetMapping("/cloud/nacos/jiangji/getPayment/{id}")
+    @GetMapping("/cloud/nacos/rongduan/getPayment/{id}")
     public CommonResponse<Payment> getPayment(@PathVariable("id") Long id){
         return new CommonResponse<>(CommonCodeEnum.SUCCESS.getCode(), CommonCodeEnum.SUCCESS.getName() + "- Port：" + ServerPort, hashMap.get(id));
     }
