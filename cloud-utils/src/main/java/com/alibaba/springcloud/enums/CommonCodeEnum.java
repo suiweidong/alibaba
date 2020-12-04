@@ -6,6 +6,8 @@ package com.alibaba.springcloud.enums;
 public enum CommonCodeEnum {
 
     SUCCESS("0000", "成功"),
+    BLOCK_HANDLER("2222", "Sentinel控制台配置违规"),
+    FALL_BACK("3333", "编码异常"),
     FAIL("1111", "失败");
 
     private CommonCodeEnum(String code, String name) {
