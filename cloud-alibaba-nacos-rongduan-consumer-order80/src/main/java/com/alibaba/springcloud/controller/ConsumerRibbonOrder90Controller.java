@@ -29,7 +29,8 @@ public class ConsumerRibbonOrder90Controller {
 //    @SentinelResource(value = "getOrderFallback") // 没有配置
 //    @SentinelResource(value = "getOrderFallback", fallback = "handlerFallback")  // fallback只负责编码异常
 //    @SentinelResource(value = "getOrderFallback", blockHandler = "blockHandler")  // blockHandler只负责sentinel控制台配置违规
-    @SentinelResource(value = "getOrderFallback", fallback = "handlerFallback", blockHandler = "blockHandler")  // blockHandler只负责sentinel控制台配置违规
+    @SentinelResource(value = "getOrderFallback", fallback = "handlerFallback", blockHandler = "blockHandler",
+        exceptionsToIgnore = {IllegalArgumentException.class})  // blockHandler只负责sentinel控制台配置违规
     public CommonResponse<Payment> getOrder(@PathVariable("id") Long id){
         CommonResponse result = this.restTemplate.getForObject(uri + "/cloud/nacos/rongduan/getPayment/" + id, CommonResponse.class, id);
 
