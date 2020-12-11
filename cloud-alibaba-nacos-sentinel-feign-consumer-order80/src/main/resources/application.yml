@@ -1,0 +1,27 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: nacos-order-consumer-sentinel-feign
+  cloud:
+    nacos:
+      discovery:
+        #        server-addr: http://106.15.238.69:8848/  #配置Nacos地址
+        server-addr: http://81.69.6.206:1122/  #配置nginx地址
+#    sentinel:
+#      transport:
+#        # 配置Sentinel dashboard地址
+#        dashboard: http://81.69.6.206:8080
+#        #        dashboard: http://192.168.160.8:8080
+#        # 默认8719端口，假如补占用会自动从8791开始依次+1扫描，直到找到未被占用的端口
+#        port: 8719
+
+# 消费者将要去访问的微服务名称(注册成功进nacos的微服务提供者)
+service-url:
+  nacos-user-service: http://cloud-alibaba-nacos-sentinel-service
+
+# openfeign支持
+#feign:
+#  sentinel:
+#    enabled: true
